@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    render component: 'Home', props: { name: 'Scott' }
+    render 'index', locals: {name: 'Scott'}
   end
 end

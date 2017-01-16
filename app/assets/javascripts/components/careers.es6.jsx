@@ -16,7 +16,9 @@ export default function Careers() {
             when we are most satisfied in him.
           </h3>
           <p>
-            Desiring God is a web ministry with more than 10,000 resources to help people find truth, purpose, and satisfaction that will never end. <a href="">Watch this video to learn more</a>.
+            Desiring God is a web ministry with more than 10,000 resources to
+            help people find truth, purpose, and satisfaction that will never
+            end. <a href="">Watch this video to learn more</a>.
           </p>
 
           <Button>Inquire</Button>
@@ -27,7 +29,8 @@ export default function Careers() {
           <h3>Our Products and Reach</h3>
           <p>
             Through desiringGod.org and our three mobile apps, God is
-            enabling us to reach new people all across the globe with our content.
+            enabling us to reach new people all across the globe with our
+            content.
           </p>
         </header>
         <ul className="">

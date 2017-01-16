@@ -4,6 +4,8 @@ This not only renders server-side views, but lets components be used on front or
 
 ---
 
+run `bundle` and `npm install`
+
 `rails s`
 
 Then visit `localhost:3000`
