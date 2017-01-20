@@ -1,0 +1,28 @@
+.container {
+  border-top: 1px solid #eee;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.dgsocial {
+  flex: 2;
+}
+
+.jpsocial {
+  flex: 2;
+}
+
+.meta {
+  text-align: right;
+  border-top:1px solid #eee;
+  padding: 25px 60px;
+}
+
+.meta li {
+  border-bottom:1px solid #eee;
+  display: inline-block;
+}

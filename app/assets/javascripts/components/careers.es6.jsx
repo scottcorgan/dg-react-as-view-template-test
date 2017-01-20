@@ -1,6 +1,7 @@
 import Button from './button.es6.jsx'
 import Opportunities from './opportunities.es6.jsx'
 import Share from './share.es6.jsx'
+import styles from './careers.css'
 
 export default function Careers() {
   return (

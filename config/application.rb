@@ -12,6 +12,7 @@ module Reactly
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
-    config.browserify_rails.use_browserifyinc = true
+    config.browserify_rails.commandline_options = "-t babelify --extension '.jsx' --plugin [ css-modulesify --output #{Rails.root.to_s}/public/stylesheets/bundle.css --rootDir #{Rails.root.to_s}/app/assets/javascripts ]"
+    config.browserify_rails.use_browserifyinc = false
   end
 end

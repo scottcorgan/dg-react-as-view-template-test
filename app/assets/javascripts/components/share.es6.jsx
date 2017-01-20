@@ -1,3 +1,5 @@
+import styles from './share.css'
+
 export default class Share extends React.Component {
   constructor(props) {
     super(props)
@@ -13,10 +15,10 @@ export default class Share extends React.Component {
 
   render() {
     return (
-      <div className="share" onClick={this.toggleIcons.bind(this)}>
+      <div className={styles.container} onClick={this.toggleIcons.bind(this)}>
         Share
         {this.state.showIcons
-          ? <div className="share__icons">icons</div>
+          ? <div className={styles.icons}>icons</div>
           : null
         }
       </div>

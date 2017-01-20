@@ -1,10 +1,12 @@
+import styles from './header.css'
+
 export default function Header() {
   return (
-    <header className='header'>
-      <div className='header__logo'>
+    <header className={styles.container}>
+      <div className={styles.logo}>
         (Logo)
       </div>
-      <nav className='header__nav'>
+      <nav className={styles.nav}>
         <ul>
           <li>Articles</li>
           <li>Sermons</li>
@@ -14,7 +16,7 @@ export default function Header() {
         </ul>
       </nav>
       <div>
-        <div className='header__search'>
+        <div>
           (Search)
         </div>
       </div>

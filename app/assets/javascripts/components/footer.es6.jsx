@@ -1,3 +1,5 @@
+import styles from './footer.css'
+
 function onSubmit(e) {
   e.preventDefault()
 
@@ -6,9 +8,9 @@ function onSubmit(e) {
 
 export default function Footer() {
   return (
-    <footer className='footer'>
-      <div className='footer__content'>
-        <div className='footer__about'>
+    <footer className={styles.container}>
+      <div className={styles.content}>
+        <div>
           <p>
             God is most glorified in us
             when we are most satisfied in him
@@ -17,13 +19,13 @@ export default function Footer() {
             Learn more about Desiring God ->
           </p>
         </div>
-        <div className='footer__dgsocial'>
+        <div className={styles.dgsocial}>
           Social Stuff
         </div>
-        <div className='fotoer__jpsocial'>
+        <div>
           Social stuff
         </div>
-        <form className='footer__email' onSubmit={onSubmit}>
+        <form onSubmit={onSubmit}>
           <label>
             Email Updates
             <input type='text' /><button>Subscribe</button>
@@ -31,7 +33,7 @@ export default function Footer() {
         </form>
       </div>
 
-      <ul className='footer__meta'>
+      <ul className={styles.meta}>
         <li>Permissions</li>
         <li>Privacy</li>
         <li>Careers</li>
